@@ -63,7 +63,6 @@ a {
 .title {
   font-weight: 700;
   font-size: 56px;
-
   line-height: 1.07;
   letter-spacing: 0.02em;
   text-align: center;
@@ -150,8 +149,6 @@ a {
 }
 .portfolio-card {
   background-color: #fff;
-  width: 360px;
-  height: 420px;
 }
 .portfolio-card-name {
   font-weight: 500;
