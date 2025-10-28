@@ -55,6 +55,142 @@ a {
   color: #404bbf;
 }
 
+/* main */
+.hero {
+  background-color: #2e2f42;
+  text-align: center;
+}
+.title {
+  font-weight: 700;
+  font-size: 56px;
+
+  line-height: 1.07143;
+  letter-spacing: 0.02em;
+  text-align: center;
+  color: #fff;
+}
+.button {
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 1.5;
+  letter-spacing: 0.04em;
+  color: #fff;
+  background-color: #4d5ae5;
+  border: none;
+}
+/* возможно убрать border: none;
+  align-items: center;
+  justify-content: center;
+  border-radius: 4px;
+  padding: 16px 32px;
+  width: 169px;
+  height: 56px;*/
+.button:hover {
+  background-color: #404bbf;
+}
+
+.features-subtitle {
+  font-weight: 500;
+  font-size: 20px;
+  line-height: 1.2;
+  letter-spacing: 0.02em;
+  color: #2e2f42;
+}
+.features-text {
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 1.5;
+  letter-spacing: 0.02em;
+  color: #434455;
+}
+
+.team {
+  background-color: #f4f4fd;
+}
+.team-title {
+  font-weight: 700;
+  font-size: 36px;
+  /* line-height: 40px; */
+  line-height: 1.11111;
+  letter-spacing: 0.02em;
+  text-align: center;
+  color: #2e2f42;
+}
+
+.team-card {
+  background-color: #fff;
+  border-radius: 0 0 4px 4px;
+  box-shadow: 0 2px 1px 0 rgba(46, 47, 66, 0.08),
+    0 1px 1px 0 rgba(46, 47, 66, 0.16), 0 1px 6px 0 rgba(46, 47, 66, 0.08);
+  text-align: center;
+  padding: 0px 0px 32px;
+  flex-direction: column;
+}
+.team-card-name {
+  font-weight: 500;
+  font-size: 20px;
+  /* line-height: 24px; */
+  line-height: 1.2;
+  letter-spacing: 0.02em;
+  text-align: center;
+  color: #2e2f42;
+}
+.team-card-role {
+  font-weight: 400;
+  font-size: 16px;
+
+  /* line-height: 24px; */
+  line-height: 1.5;
+  letter-spacing: 0.02em;
+  text-align: center;
+  color: #434455;
+}
+
+.portfolio-title {
+  font-weight: 700;
+  font-size: 36px;
+
+  /* line-height: 40px; */
+  line-height: 1.11111;
+  letter-spacing: 0.02em;
+  text-align: center;
+  color: #2e2f42;
+}
+.portfolio-card {
+  background-color: #fff;
+  width: 360px;
+  height: 420px;
+}
+.portfolio-card-name {
+  font-weight: 500;
+  font-size: 20px;
+  /* line-height: 24px; */
+  line-height: 1.2;
+  letter-spacing: 0.02em;
+  color: #2e2f42;
+}
+.portfolio-card-role {
+  font-weight: 400;
+  font-size: 16px;
+  /* line-height: 24px; */
+  line-height: 1.5;
+  letter-spacing: 0.02em;
+  color: #434455;
+}
+
+/* footer */
 .page-footer {
   background-color: #2e2f42;
+}
+.footer-logo .logo-part {
+  color: #f4f4fd;
+}
+.footer-text {
+  font-weight: 400;
+  font-size: 16px;
+
+  /* line-height: 24px; */
+  line-height: 1.5;
+  letter-spacing: 0.02em;
+  color: #f4f4fd;
 }
